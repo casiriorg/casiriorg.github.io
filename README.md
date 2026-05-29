@@ -17,7 +17,7 @@ casiriorg.github.io/
 │   │       ├── index.md                  # Intro del proyecto QDR
 │   │       └── api.md                    # API autodoc (mkdocstrings)
 │   ├── assets/
-│   │   ├── logo.svg
+│   │   ├── logo.png
 │   │   └── custom.css
 │   └── overrides/                        # Plantillas MkDocs custom
 ├── .github/

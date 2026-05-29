@@ -7,8 +7,8 @@ repo_name: casiriorg
 
 theme:
   name: material
-  logo: assets/logo.svg
-  favicon: assets/logo.svg
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - scheme: default
       primary: custom

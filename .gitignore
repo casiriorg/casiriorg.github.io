@@ -1,0 +1,6 @@
+site/
+qiskit-data-reuploading-src/
+__pycache__/
+*.pyc
+.DS_Store
+.env

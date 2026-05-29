@@ -1,0 +1,198 @@
+/* ─── Google Fonts ─────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ─── CASIRI Color Tokens ───────────────────────────────────────────── */
+:root {
+  --casiri-deep:     #080c14;
+  --casiri-navy:     #0d1526;
+  --casiri-blue:     #0f3460;
+  --casiri-accent:   #00d4ff;
+  --casiri-accent2:  #4f9cf9;
+  --casiri-gold:     #f0a500;
+  --casiri-white:    #e8edf5;
+  --casiri-muted:    #7a8ba8;
+}
+
+/* ─── Dark scheme overrides ─────────────────────────────────────────── */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        var(--casiri-blue);
+  --md-primary-fg-color--light: var(--casiri-accent2);
+  --md-primary-fg-color--dark:  var(--casiri-deep);
+  --md-accent-fg-color:         var(--casiri-accent);
+  --md-default-bg-color:        var(--casiri-deep);
+  --md-default-fg-color:        var(--casiri-white);
+  --md-default-fg-color--light: var(--casiri-muted);
+  --md-code-bg-color:           #0d1a2d;
+  --md-code-fg-color:           #c9d8f0;
+}
+
+/* ─── Light scheme overrides ────────────────────────────────────────── */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        var(--casiri-blue);
+  --md-accent-fg-color:         var(--casiri-accent);
+}
+
+/* ─── Header ────────────────────────────────────────────────────────── */
+.md-header {
+  background: linear-gradient(90deg, var(--casiri-deep) 0%, var(--casiri-navy) 60%, #0a1e3d 100%);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.md-header__title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--casiri-white);
+}
+
+/* ─── Navigation tabs ───────────────────────────────────────────────── */
+.md-tabs {
+  background: var(--casiri-navy);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.md-tabs__link {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+  color: var(--casiri-accent) !important;
+}
+
+/* ─── Sidebar ───────────────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-sidebar {
+  background: var(--casiri-navy);
+}
+
+.md-nav__title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--casiri-muted);
+}
+
+.md-nav__link--active {
+  color: var(--casiri-accent) !important;
+  font-weight: 600;
+}
+
+/* ─── Content typography ────────────────────────────────────────────── */
+.md-content h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, var(--casiri-white) 0%, var(--casiri-accent2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.4em;
+}
+
+.md-content h2 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  color: var(--casiri-accent2);
+  border-bottom: 1px solid rgba(79, 156, 249, 0.2);
+  padding-bottom: 0.3em;
+}
+
+.md-content h3 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  color: var(--casiri-white);
+}
+
+/* ─── Homepage hero block ───────────────────────────────────────────── */
+.md-content article > p:first-of-type {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #b5c8e0;
+}
+
+/* ─── Horizontal rule as section divider ────────────────────────────── */
+hr {
+  border: none;
+  border-top: 1px solid rgba(0, 212, 255, 0.12);
+  margin: 2.5rem 0;
+}
+
+/* ─── Admonitions ───────────────────────────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-left-color: var(--casiri-accent);
+  background: rgba(0, 212, 255, 0.04);
+}
+
+/* ─── Code blocks ───────────────────────────────────────────────────── */
+.md-typeset pre {
+  border: 1px solid rgba(0, 212, 255, 0.1);
+  border-radius: 6px;
+}
+
+.md-typeset code {
+  background: rgba(0, 212, 255, 0.07);
+  color: var(--casiri-accent);
+  border-radius: 3px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+}
+
+/* ─── Badges / tags ─────────────────────────────────────────────────── */
+.md-typeset .md-button {
+  border-color: var(--casiri-accent);
+  color: var(--casiri-accent);
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button--primary {
+  background: var(--casiri-accent);
+  color: var(--casiri-deep);
+}
+
+/* ─── Footer ────────────────────────────────────────────────────────── */
+.md-footer {
+  background: var(--casiri-deep);
+  border-top: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+/* ─── Tables ─────────────────────────────────────────────────────────── */
+.md-typeset table:not([class]) th {
+  background: rgba(0, 212, 255, 0.08);
+  color: var(--casiri-accent2);
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background: rgba(0, 212, 255, 0.03);
+}
+
+/* ─── Search ─────────────────────────────────────────────────────────── */
+.md-search__input {
+  background: rgba(255,255,255,0.05);
+  color: var(--casiri-white);
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--casiri-deep); }
+::-webkit-scrollbar-thumb { background: var(--casiri-blue); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--casiri-accent2); }

@@ -10,20 +10,20 @@ theme:
   logo: assets/logo.svg
   favicon: assets/logo.svg
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
     - scheme: default
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/brightness-7
+        name: Cambiar a tema oscuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a tema claro
   font:
-    text: Syne
+    text: Inter
     code: JetBrains Mono
   features:
     - navigation.tabs
@@ -75,9 +75,18 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Home: index.md
-  - Projects:
+  - Inicio: index.md
+  - Contexto: context.md
+  - Proyectos:
     - projects/index.md
     - QDR — Qiskit Data Reuploading:
-      - qiskit-data-reuploading/index.md
-      - API Reference: qiskit-data-reuploading/api.md
+      - projects/qiskit-data-reuploading/index.md
+      - API Reference: projects/qiskit-data-reuploading/api.md
+  - Áreas:
+    - areas/index.md
+    - UAS/UAV para Vigilancia: areas/uas-observacion.md
+    - Modelos Ligeros IA/ML: areas/modelos-ligeros.md
+    - IA/ML para Decisiones: areas/ia-decisiones.md
+    - Agricultura de Precisión: areas/agricultura-precision.md
+    - Sensores Remotos: areas/sensores-remotos.md
+    - Aplicaciones Civiles: areas/aplicaciones-civiles.md

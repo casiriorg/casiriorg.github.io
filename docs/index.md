@@ -6,74 +6,84 @@ A través de nuestros espacios y aliados, buscamos la sinergia entre jóvenes vo
 
 ---
 
-## Construyendo desde el territorio
+## Proyectos
 
-El suroccidente colombiano lleva décadas siendo escenario de una paradoja difícil de ignorar: una región de extraordinaria riqueza natural, biodiversidad única en el mundo y un capital humano joven, creativo y resiliente, que al mismo tiempo ha cargado con el peso de décadas de conflicto armado, abandono institucional y brechas de desarrollo que no se cierran solos.
+<div class="grid cards" markdown>
 
-Pero algo está cambiando.
+-   :material-atom: **QDR — Qiskit Data Reuploading**
 
-Los mismos jóvenes que crecieron en medio de la incertidumbre son hoy los que preguntan cómo usar un dron para monitorear cultivos, cómo programar un sensor para alertar sobre deslizamientos, cómo aplicar inteligencia artificial a los problemas reales de su comunidad. El conflicto no apagó la curiosidad — la hizo más urgente.
+    ---
 
-El Cauca, Nariño y el Valle del Cauca concentran una biodiversidad sin igual: ecosistemas de páramo, selva húmeda, zonas costeras e interandinas que el mundo entero estudia y que nosotros tenemos el privilegio y la responsabilidad de entender, proteger y aprovechar de manera sostenible. Las comunidades productoras — caficultores, agricultores, emprendedores rurales — llevan generaciones acumulando un conocimiento del territorio que ningún algoritmo puede replicar solo, pero que con las herramientas correctas puede escalar, comunicarse y transformarse en datos que toman decisiones.
+    Librería Python pip-instalable y sklearn-compatible que implementa clasificadores cuánticos mediante Data Re-Uploading sobre Qiskit 2.x.
 
-CASIRI nace desde esa convicción: que la tecnología aeroespacial, la inteligencia artificial y los sistemas de observación terrestre no son exclusivos de los grandes centros urbanos del mundo. Son herramientas que pueden y deben ser apropiadas desde el sur, por quienes conocen el territorio de primera mano, para resolver los problemas que importan aquí.
+    `python` · `qiskit` · `quantum-ml` · `sklearn`
 
-No partimos de cero. Partimos desde la biodiversidad más rica del planeta, desde el talento de jóvenes que ya están resolviendo problemas reales, y desde la vocación de una región que lleva años demostrando que es posible construir futuro incluso en las condiciones más adversas.
+    [:octicons-arrow-right-24: Ver proyecto](projects/qiskit-data-reuploading/index.md)
+
+-   :material-laser-pointer: **RPLiDAR Pointer**
+
+    ---
+
+    Librería Python para control y adquisición de datos con sensores RPLiDAR S2 y S2E de Slamtec, orientada a navegación y mapeo en plataformas robóticas y UAS.
+
+    `python` · `lidar` · `robotics` · `uas`
+
+    [:octicons-arrow-right-24: Ver repositorio](https://github.com/casiriorg/s2p-rplidar-pointer-python)
+
+</div>
 
 ---
 
 ## Áreas de Investigación
 
-### UAS/UAV para Vigilancia y Observación Terrestre
+<div class="grid cards" markdown>
 
-Los Sistemas Aéreos no Tripulados (UAS/UAV) han transformado la forma en que observamos, monitoreamos y comprendemos la superficie terrestre. Desde mapeo de alta resolución hasta misiones de vigilancia en tiempo real, los drones modernos —fijos, multirrotor o híbridos— combinan sensores ópticos, multiespectrales, térmicos y LiDAR para generar datos que antes requerían satélites o aeronaves tripuladas costosas.
+-   :material-drone: **UAS/UAV para Vigilancia y Observación Terrestre**
 
-En CASIRI desarrollamos plataformas UAS orientadas a aplicaciones civiles: monitoreo ambiental, inspección de infraestructura, respuesta ante emergencias y observación de zonas de difícil acceso. Nuestra investigación abarca desde el diseño de la aeronave y la integración de payloads, hasta los pipelines de procesamiento de imágenes y la fusión de datos multisensor.
+    ---
 
----
+    Monitoreo ambiental, inspección de infraestructura y observación en zonas de difícil acceso mediante plataformas aéreas no tripuladas.
 
-### Modelos Ligeros de IA/ML
+    [:octicons-arrow-right-24: Ver área](areas/uas-observacion.md)
 
-El despliegue de inteligencia artificial en entornos con recursos computacionales limitados —bordes de red, sistemas embebidos, hardware aeroespacial— exige modelos que sean eficientes sin sacrificar precisión. Los modelos ligeros (TinyML, model pruning, quantization, knowledge distillation) permiten llevar capacidades de inferencia a microcontroladores, FPGAs y procesadores de baja potencia.
+-   :material-chip: **Modelos Ligeros de IA/ML**
 
-Investigamos arquitecturas compactas para clasificación, detección de objetos y procesamiento de señales adaptadas a plataformas UAS y sistemas de sensores distribuidos donde el peso, el consumo energético y la latencia son restricciones críticas. Exploramos también enfoques cuánticos-clásicos híbridos como alternativa de vanguardia para ciertos problemas de clasificación.
+    ---
 
----
+    Arquitecturas compactas para inferencia en sistemas embebidos, UAS y hardware aeroespacial de baja potencia, incluyendo enfoques cuánticos-clásicos híbridos.
 
-### IA/ML para Toma de Decisiones Empresariales y Sociales
+    [:octicons-arrow-right-24: Ver área](areas/modelos-ligeros.md)
 
-Más allá de la visión por computadora, la inteligencia artificial tiene un papel fundamental en la transformación de datos complejos en decisiones informadas para organizaciones, comunidades y gobiernos. Desde modelos de predicción para cadenas de suministro agrícolas hasta sistemas de alerta temprana para riesgos territoriales, el ML aplicado a decisiones sociales y empresariales puede cerrar brechas donde los recursos son escasos y el margen de error es alto.
+-   :material-chart-line: **IA/ML para Toma de Decisiones**
 
-Desarrollamos pipelines de análisis de datos orientados a impacto: modelos interpretables, herramientas de visualización y sistemas de soporte a la decisión diseñados para ser usados por actores no técnicos en contextos reales del suroccidente colombiano.
+    ---
 
----
+    Modelos interpretables y sistemas de soporte a la decisión para organizaciones, comunidades y gobiernos en el suroccidente colombiano.
 
-### Sistemas de Agricultura de Precisión
+    [:octicons-arrow-right-24: Ver área](areas/ia-decisiones.md)
 
-La agricultura de precisión integra sensores, datos satelitales, imágenes UAV y modelos predictivos para optimizar el uso de insumos, anticipar enfermedades, mapear variabilidad en el suelo y maximizar rendimientos con menor impacto ambiental. En una región como el suroccidente colombiano, donde el café, el cacao, la caña y los cultivos de subsistencia son la base económica de miles de familias, estas tecnologías tienen el potencial de transformar la productividad y la resiliencia del sector agrícola.
+-   :material-sprout: **Sistemas de Agricultura de Precisión**
 
-Nuestros proyectos combinan imágenes multiespectrales capturadas con UAS, índices de vegetación (NDVI, NDRE, SAVI), modelado de suelos y aprendizaje automático para generar recomendaciones accionables directamente en campo.
+    ---
 
----
+    Integración de sensores, imágenes UAV, índices espectrales y aprendizaje automático para optimizar cultivos con menor impacto ambiental.
 
-### Sensores Remotos y Distribuidos para Monitoreo y Vigilancia
+    [:octicons-arrow-right-24: Ver área](areas/agricultura-precision.md)
 
-Las redes de sensores distribuidos permiten monitorear fenómenos físicos —temperatura, humedad, presión, vibración, calidad del aire, movimiento— en áreas extensas y de difícil acceso, con transmisión de datos en tiempo real hacia plataformas centralizadas de análisis. Tecnologías como LoRaWAN, Zigbee, BLE y protocolos IoT industriales hacen posible desplegar infraestructuras de sensado de bajo costo y bajo consumo energético.
+-   :material-antenna: **Sensores Remotos y Distribuidos**
 
-Investigamos el diseño, calibración y despliegue de nodos de sensores para aplicaciones de monitoreo ambiental, detección de intrusión, vigilancia de infraestructura crítica y seguimiento de variables agronómicas. La integración de estos sistemas con plataformas UAS crea redes de observación híbridas con capacidad de cobertura multi-escala.
+    ---
 
----
+    Redes de sensores IoT para monitoreo ambiental, detección de intrusión y vigilancia de infraestructura en áreas extensas y de difícil acceso.
 
-### Aplicaciones Civiles y Semimilitares
+    [:octicons-arrow-right-24: Ver área](areas/sensores-remotos.md)
 
-Existe un espectro amplio de aplicaciones de tecnología aeroespacial que opera en la intersección entre el uso civil y las necesidades de seguridad pública: monitoreo de fronteras, apoyo a operaciones de rescate y búsqueda, vigilancia de infraestructura energética, detección de cultivos ilícitos y patrullaje de áreas protegidas son solo algunos ejemplos.
+-   :material-shield-airplane: **Aplicaciones Civiles y Semimilitares**
 
-Desarrollamos sistemas y protocolos para operaciones en este espectro, con énfasis en cumplimiento normativo (regulación UAEAC en Colombia), coordinación con autoridades civiles y uso ético de tecnologías de observación. Nuestro enfoque es estrictamente defensivo, orientado a la protección de comunidades, ecosistemas e infraestructura.
+    ---
 
----
+    Sistemas para operaciones en el espectro civil-seguridad pública: rescate, vigilancia de infraestructura y patrullaje de áreas protegidas.
 
-## Proyectos
+    [:octicons-arrow-right-24: Ver área](areas/aplicaciones-civiles.md)
 
-Estos son algunos de los proyectos activos en CASIRI. Cada uno está documentado de forma abierta para facilitar la colaboración, reproducibilidad y transferencia de conocimiento.
-
-→ Ver todos los proyectos en la sección [**Projects**](projects/index.md)
+</div>

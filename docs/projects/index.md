@@ -6,7 +6,7 @@ Repositorio de proyectos abiertos desarrollados en CASIRI. Cada proyecto incluye
 
 ## Computación Cuántica Aplicada
 
-[QDR — Qiskit Data Reuploading](../qiskit-data-reuploading/index.md)
+[QDR — Qiskit Data Reuploading](qiskit-data-reuploading/index.md)
 
 Librería Python instalable vía `pip`, compatible con scikit-learn, que implementa clasificadores cuánticos mediante la técnica de *Data Re-Uploading* sobre Qiskit 2.x. Primera implementación de este tipo disponible en el ecosistema Qiskit con API sklearn-compatible, primitivas V2 y soporte para hardware IBM Quantum real.
 

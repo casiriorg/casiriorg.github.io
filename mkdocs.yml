@@ -79,5 +79,5 @@ nav:
   - Projects:
     - projects/index.md
     - QDR — Qiskit Data Reuploading:
-      - docs/qiskit-data-reuploading/index.md
-      - API Reference: docs/qiskit-data-reuploading/api.md
+      - qiskit-data-reuploading/index.md
+      - API Reference: qiskit-data-reuploading/api.md
